@@ -60,10 +60,10 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
 
       <label>Serial Number</label>
       <input
-        type="number"
-        name="Serial Number"
+        name="serialNumber"
         value={formData.serialNumber}
         onChange={handleChange}
+        required
       />
 
       <button className="btn primary" type="submit">{submitText}</button>
